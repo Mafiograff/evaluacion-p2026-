@@ -23,3 +23,76 @@ img {
 body {
   font-size: 1.6rem;
 }
+
+.contenedor{
+  color:black;
+  justify-content: space-between;
+}
+
+
+.btn-reservar{
+  background-color:#c0392b;
+  font-weight: bold;
+  font-size:1.1rem;
+  padding: 0.6rem 1.6rem;
+  border-radius:0.6rem;
+  text-decoration: none;
+  
+}
+
+.inicio a{
+  display: flex;
+}
+
+.texto-rojo{
+  color:#c0392b;
+
+}
+
+.navbar-items li a{
+  justify-content: space-between;
+  text-decoration: none;
+}
+.titulo{
+  color:#888888;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 34rem;
+  margin-bottom: 2.8rem;
+}
+
+.color-fondo{
+  background-color: black;
+}
+.boton-rojo{
+  background-color:#c0392b;
+  color:#ffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding:1rem 2.2rem;
+  border-radius:0.6rem;
+  
+
+}
+
+.color-reservar-mesa{
+  background-color: transparent;
+ 
+  color:#cccccc;
+  font-size: 1.2rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0.6rem;
+}
+
+.sushi-autentic{
+  color:#c0392b;
+}
+
+.sabor-japones{
+  color:white;
+}
+
+.color-ingradientes{
+  color:#cccccc;
+  flex-direction: column;
+}
