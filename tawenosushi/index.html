@@ -18,89 +18,134 @@
 
   <!-- ===================== INICIO HEADER ===================== -->
 <header>
-  <nav>
-    <a class="titulo"> </a>TAWENO SUSHI</a>
+  <nav class="navbar">
+    <a class="titulo" href="#">TAWENO SUSHI</a>
     
-    <u class="navbar-items">
+    <ul class="navbar-items">
       <li><a href="#">Inicio</a></li>
       <li><a href="#">Menú</a></li>
       <li><a href="#">Sobre nosotros</a></li>
       <li><a href="#">Contacto</a></li>
     </ul>
-    </div>
-    <a class="btn-reservar"></a href="#">Reservar</a>
+    
+    <a class="btn-reservar" href="#">Reservar</a>
   </nav>
 <div class="color-fondo">
   <span class="sushi-autentic">Sushi auténtico desde 2017</span>
   <h1 class="sabor-japones">Sabor japonés<br><span class="texto-rojo">en cada pieza</span></h1>
   <p class="color-ingradientes">Ingredientes frescos del día. Tradición y técnica en cada preparación. Dos locales en Chile.</p>
-  <a class="boton-rojo"></a href="#">Ver menú completo</a>
-  <a class="color-reservar-mesa"></a href="#">Reservar mesa</a>
-</header>
+<div class="botones">
+  <a class="boton-rojo" href="#">Ver menú completo</a>
+  <a class="reservar-mesa" href="#">Reservar mesa</a>
+  </div>
 </div>
+  </header>
   <!-- ===================== FIN HEADER ===================== -->
 
+ <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
 
-  <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
+<section class="menu">
 
-  <span>Selección del chef</span>
-  <h2>Nuestro menú</h2>
-  <a href="#">Ver todos los productos</a>
+<span>Selección del chef</span>
 
-  <img src="#" alt="Nigiri Salmón">
-  <h3>Nigiri Salmón</h3>
-  <p>Arroz con salmón fresco y wasabi.</p>
-  <span>$4.990</span>
-  <button type="button">+</button>
+<h2>Nuestro menú</h2>
 
-  <img src="#" alt="Roll Spicy Tuna">
-  <h3>Roll Spicy Tuna</h3>
-  <p>Atún, pepino, palta y sésamo.</p>
-  <span>$6.490</span>
-  <button type="button">+</button>
+<a href="#">Ver todos los productos</a>
 
-  <img src="#" alt="Tempura Roll">
-  <h3>Tempura Roll</h3>
-  <p>Camarón tempura y salsa teriyaki.</p>
-  <span>$6.990</span>
-  <button type="button">+</button>
+<div class="productos">
+<article class="producto">
+  <img src="img/sushi1.jpg" alt="Nigiri Salmón">
+  <div class="producto-informacion">
+    <h3>Nigiri Salmón</h3>
+    <p>Arroz con salmón fresco y wasabi.</p>
+    <div class="precio">
+      <span>$4.990</span>
+      <button type="button">+</button>
+    </div>
+  </div>
+</article>
 
-  <img src="#" alt="Sashimi Mix">
-  <h3>Sashimi Mix</h3>
-  <p>12 piezas premium variadas.</p>
-  <span>$9.990</span>
-  <button type="button">+</button>
+<article class="producto">
+  <img src="img/sushi2.jpg" alt="Roll Spicy Tuna">
+  <div class="producto-informacion">
+    <h3>Roll Spicy Tuna</h3>
+    <p>Atún, pepino, palta y sésamo.</p>
+    <div class="precio">
+      <span>$6.490</span>
+      <button type="button">+</button>
+    </div>
+  </div>
+</article>
+
+<article class="producto">
+  <img src="img/sushi3.jpg" alt="Tempura Roll">
+  <div class="producto-informacion">
+    <h3>Tempura Roll</h3>
+    <p>Camarón tempura y salsa teriyaki.</p>
+    <div class="precio">
+      <span>$6.990</span>
+      <button type="button">+</button>
+    </div>
+  </div>
+</article>
+
+<article class="producto">
+  <img src="img/sushi4.jpg" alt="Sashimi Mix">
+  <div class="producto-informacion">
+    <h3>Sashimi Mix</h3>
+    <p>12 piezas premium variadas.</p>
+    <div class="precio">
+      <span>$9.990</span>
+      <button type="button">+</button>
+    </div>
+  </div>
+</article>
+</section>
+
 
   <!-- ===================== FIN NUESTRO MENÚ ===================== -->
 
 
   <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
-
+<section class="favoritos">
+  <div class="favoritos-header">
   <span>Favoritos</span>
   <h2>Los más pedidos</h2>
   <p>Los platos que nuestros clientes eligen semana a semana. Preparados al momento con ingredientes frescos.</p>
+  </div>
 
-  <ul>
-    <li>
-      <img src="#" alt="Miniatura Nigiri Salmón">
+  <ul class="lista-favoritos">
+    <li class="item-favoritos">
+      <img src="img/sushi1.jpg" alt="Miniatura Nigiri Salmón">
+      <div>
       <span>Nigiri Salmón</span>
       <small>Arroz con salmón fresco y wasabi</small>
+      <div class="información-extra">
       <span>$4.990</span>
       <small>+320 pedidos</small>
+      </div>
+      </div>
     </li>
-    <li>
-      <img src="#" alt="Miniatura Roll Spicy Tuna">
+
+    <li class="item-favorito">
+      <img src="img/sushi2.jpg" alt="Miniatura Roll Spicy Tuna">
       <span>Roll Spicy Tuna</span>
       <small>Atún, pepino, palta y sésamo</small>
+      <div class="Información-extra">
       <span>$6.490</span>
       <small>+210 pedidos</small>
+      </div>
+    </div>
     </li>
-    <li>
-      <img src="#" alt="Miniatura Tempura Roll">
+    <li class="item-favorito">
+      <img src="img/sushi3.jpg" alt="Miniatura Tempura Roll">
       <span>Tempura Roll</span>
       <small>Camarón tempura y salsa teriyaki</small>
+      <div class="Información-extra">
       <span>$6.990</span>
       <small>+185 pedidos</small>
+      </div>
+    </div>
     </li>
   </ul>
 
@@ -157,7 +202,8 @@
 
 
   <!-- ===================== INICIO FOOTER ===================== -->
-
+<footer class="footer">
+  <div class="footer-contenido">
   <h3>TAWENO SUSHI</h3>
   <p>Sushi auténtico preparado con ingredientes frescos del día. Tradición japonesa en cada pieza.</p>
 
@@ -192,7 +238,7 @@
   </ul>
 
   <!-- ===================== FIN FOOTER ===================== -->
-
+</footer>
 </body>
 
 </html>

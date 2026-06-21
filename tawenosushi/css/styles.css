@@ -22,7 +22,23 @@ img {
 /* Tu código va aquí */
 body {
   font-size: 1.6rem;
+  background-color:#f9f8f5;
+  color:#1a1a1a;
 }
+
+a{
+  text-decoration:none;
+}
+
+.navbar{
+  height:5.2rem;
+  background:#ffffff;
+  padding:0 3.2rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
 
 .contenedor{
   color:black;
@@ -30,15 +46,7 @@ body {
 }
 
 
-.btn-reservar{
-  background-color:#c0392b;
-  font-weight: bold;
-  font-size:1.1rem;
-  padding: 0.6rem 1.6rem;
-  border-radius:0.6rem;
-  text-decoration: none;
-  
-}
+
 
 .inicio a{
   display: flex;
@@ -46,53 +54,206 @@ body {
 
 .texto-rojo{
   color:#c0392b;
+  text-decoration:none;
 
 }
 
-.navbar-items li a{
-  justify-content: space-between;
-  text-decoration: none;
+.navbar-items{
+  display:flex;
+  list-style:none;
+  gap:3rem;
+  margin:0;
+  padding:0;
 }
+  
 .titulo{
-  color:#888888;
-  font-size: 1.3rem;
-  line-height: 1.8;
-  max-width: 34rem;
-  margin-bottom: 2.8rem;
+  color:#1a1a1a;
+  font-size:1.5rem;
+  font-weight:bold;
+  text-decoration:none;
 }
+
+.navbar-items a{
+  color:#555555;
+  font-size:1.2rem;
+  text-decoration:none;
+}
+
 
 .color-fondo{
-  background-color: black;
+  background-color:#000000;
+  padding:6.4rem 3.2rem;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
 }
 .boton-rojo{
   background-color:#c0392b;
-  color:#ffff;
-  font-size: 1.2rem;
-  font-weight: bold;
+  color:#ffffff;
+  font-size:1.2rem;
+  font-weight:bold;
   padding:1rem 2.2rem;
-  border-radius:0.6rem;
-  
-
-}
-
-.color-reservar-mesa{
-  background-color: transparent;
- 
-  color:#cccccc;
-  font-size: 1.2rem;
-  padding: 1rem 1.8rem;
-  border-radius: 0.6rem;
+  border-radius:.6rem;
+  display:inline-block;
+  text-decoration:none;
 }
 
 .sushi-autentic{
   color:#c0392b;
+  border:.1rem solid rgba(192,57,43,.5);
+  padding:.4rem 1.2rem;
+  border-radius:2rem;
+  font-size:1rem;
+  
 }
 
 .sabor-japones{
-  color:white;
+  color:#ffffff;
+  font-size:4.5rem;
+  line-height:1.2;
+  margin-bottom:1.4rem;
 }
 
 .color-ingradientes{
+  color:#888888;
+  font-size:1.3rem;
+  line-height:1.8;
+  max-width:34rem;
+}
+
+.reservar-mesa{
   color:#cccccc;
-  flex-direction: column;
+  border:.1rem solid rgba(255,255,255,.2);
+  border-radius:.6rem;
+  padding:1rem 1.9rem;
+  display:inline-block;
+}
+
+.menu{
+  background-color:#ffffff;
+  padding:4.8rem 3.2rem;
+}
+
+.menu h2{
+  font-size:2.2rem;
+}
+
+.productos{
+  display:flex;
+  justify-content: space-between;
+  gap:2rem;
+
+}
+
+.producto{
+  flex-basis: 25%;
+  border:.1rem solid #e0ddd5;
+  margin-right:2rem;
+  background-color:#ffffff;
+  border-radius:1rem;
+  overflow:hidden;
+}
+
+.producto img{
+  width:100%;
+  height:20rem;
+  object-fit: cover;
+}
+
+.producto-informacion{
+  padding:1.2rem;
+}
+
+.producto-informacion p{
+  color:#555555;
+  font-size: 1.1rem;
+}
+
+.precio{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.precio button{
+  background-color:#1a1a1a;
+  color:#ffffff;
+  width:2rem;
+  height:2rem;
+  border-radius: .5rem;
+}
+
+.favoritos{
+  background-color:#f2f0eb;
+  padding:4.4rem 3.2rem;
+  display:flex;
+}
+
+.favoritos ul{
+  list-style:none;
+  padding:0;
+}
+
+.favoritos li{
+  display:flex;
+  align-items:center;
+  padding:1.2rem;
+  border-bottom:.1rem solid #e0ddd5;
+}
+
+.favoritos img{
+  width:5.2rem;
+  height:5.2rem;
+  object-fit:cover;
+  border-radius:.8rem;
+  margin-right:1.4rem;
+
+}
+
+.botones{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:1rem;
+}
+.btn-reservar{
+  background-color:#c0392b;
+  font-weight: bold;
+  font-size:1.1rem;
+  padding: 0.8rem 1.6rem;
+  border-radius:0.6rem;
+  text-decoration: none;
+  color:white;
+}
+
+.favoritos-header{
+  max-width:60;
+  margin-bottom:3rem;
+
+}
+
+.lista-favoritos{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+}
+
+.item-favorito img{
+  width:7rem;
+  height:7rem;
+  border-radius:.8rem;
+}
+
+.item-favorito h4{
+  margin:0;
+}
+
+.info-extra{
+  display:flex;
+  gap:1rem;
+  margin-top:.5rem;
+  color:#555;
 }
